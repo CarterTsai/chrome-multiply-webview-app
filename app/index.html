@@ -14,9 +14,18 @@
         <!-- endbuild -->
     </head>
     <body>
-        <h1>'Allo</h1>
-        <webview id="foo" src="http://www.google.com/" style="width:640px; height:480px"></webview>
-        <div class=".indicator"></div>
+        <header>
+            <div class="vertical-container">
+                <span>Google</span>
+                <span>Yahoo</span>
+                <span>XXX</span>
+                <span>TEST</span>
+            </div> 
+        </header>
+        <div class="content">
+            <webview id="foo" src="https://www.google.com/" style="width:1024px; height:768px"></webview>
+            <webview id="foo" src="https://tw.yahoo.com" style="width:1024px; height:768px"></webview>
+        </div>
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <!-- endbower -->
