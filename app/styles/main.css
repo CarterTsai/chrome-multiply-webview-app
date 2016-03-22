@@ -31,12 +31,17 @@ header span {
 }
 
 .content {
+    margin-top: 100px;
     display: -webkit-flex;
     display:         flex;
     -webkit-align-items: center;
             align-items: center;
-    -webkit-justify-content: center;
-            justify-content: center;
+    -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /*-webkit-justify-content: center;
+            justify-content: center;*/
 }
 
 .content webview {
